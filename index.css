@@ -1,0 +1,362 @@
+.divparti1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divpartimilieu{
+    display: flex;
+    justify-content: center;
+    gap : 30px;
+}
+
+.divpartigauche button{
+    background-color: darkolivegreen;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.divbrowse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.divpartiimage{
+    height: 150%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.divby{
+    color: #666;
+    margin-top: 50px;
+}
+
+.divpartiimage2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.divpartiimage3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.divparti4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.divgr{
+    width: 100%;
+    height: 2px;
+    background-color: darkgray;
+    margin-top: 50px;
+}
+
+.divpartiimage4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divligne1{
+    margin-top: 20px;
+    color: gray;
+}
+.divligne2{
+    margin-top: 20px;
+}
+
+.divligne11{
+    margin-top: 20px;
+}
+.divligne3{
+    margin-top: 20px;
+}
+.divligne4{
+    margin-top: 20px;
+}
+.divdiscor button{
+    background-color: darkolivegreen;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.divimagep3{
+    width: auto;
+    height: 20px;
+}
+
+.divparti3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 10%;
+    gap: 80px;
+    
+} 
+
+.divgauche3 {
+    flex: 1;
+}
+
+
+.divtitrep3 h1 {
+    font-family: 'Serif', Georgia, serif; 
+    font-size: 3rem;
+    margin: 20px 0;
+    font-weight: 400;
+}
+
+.divligne-description {
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    max-width: 500px;
+}
+
+
+.divgr {
+    width: 100%;
+    height: 1px;
+    background-color: #e0e0e0; 
+    margin: 0;
+}
+
+
+.feature-item {
+    display: flex;
+    padding: 25px 0;
+    align-items: center;
+    font-size: 0.95rem;
+}
+
+.feature-item .number {
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+
+.divdiscor button {
+    background-color: #d4e3b5; 
+    color: #333;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 30px;
+    margin-top: 40px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+
+.divdroitp3 {
+    flex: 1;
+}
+
+.img-main {
+    width: 100%;
+    border-radius: 25px; 
+    display: block;
+}
+
+.divchoose span{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: #bde7cd;
+    text-transform: uppercase;
+    font-size: 0,9rem;
+    letter-spacing: 2px;
+}
+.divchoose h1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.divchoose p{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #babbbc;
+    font-size: 1rem;
+}
+
+.divchoose button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #d4e3b5; 
+    color: #333;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.divbut {
+    display: flex;
+    justify-content: center;
+}
+
+.comparison-container {
+    padding: 50px 10%;
+    
+}
+
+.comparison-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+.comparison-table th {
+    padding: 30px 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.comparison-table td {
+    padding: 20px;
+    font-size: 0.95rem;
+    color: #444;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.highlight-col {
+    background-color: #f0f0f0; 
+    width: 33%;
+}
+
+
+.comparison-table thead tr th:first-child {
+    border-top-left-radius: 20px;
+}
+
+
+.comparison-table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 20px;
+}
+
+
+.comparison-table thead tr th.highlight-col {
+    border-top-right-radius: 20px;
+}
+
+
+.comparison-table tbody tr:last-child td.highlight-col {
+    border-bottom-right-radius: 20px;
+}
+
+
+.comparison-table th:not(:first-child), 
+.comparison-table td:not(:first-child) {
+    text-align: center;
+}
+
+
+.comparison-table td {
+    transition: 0.3s;
+}
+
+.divjohn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.divcherta{
+    width: 100%;
+    height: 2px;
+    background-color: #e0e0e0; 
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.divmap{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div000{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.divvert{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.divus{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.divadvantage{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    color: #afacac;
+    font-size: 20px;
+}
+
+.divmore{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    margin: 30px auto 0;
+    background-color: darkolivegreen;
+    
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.divfin{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+
+
+.divmore button {
+    background: transparent; 
+    border: none;            
+    color: white;            
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;                 
+}
